@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rakib's Empire!!!"
+        android:textSize="34sp"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textColor="#DA1616"
+        android:id="@+id/txtAnim"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btnTranslate"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Translate"
+                android:backgroundTint="#B3AFAF"
+                android:textColor="#120B0B"
+                android:textStyle="bold"
+                />
+            <Button
+                android:id="@+id/btnAlpha"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alpha"
+                android:backgroundTint="#B3AFAF"
+                android:textColor="#120B0B"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+           <Button
+               android:id="@+id/btnRotate"
+               android:layout_weight="1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Rotate"
+               android:backgroundTint="#B3AFAF"
+               android:textColor="#120B0B"
+               android:textStyle="bold"
+               />
+           <Button
+               android:id="@+id/btnScale"
+               android:layout_weight="1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Scale"
+               android:backgroundTint="#B3AFAF"
+               android:textColor="#120B0B"
+               android:textStyle="bold"
+               />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
